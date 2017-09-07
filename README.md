@@ -18,19 +18,13 @@ namenode> cat ~/.ssh/id_rsa.pub
 ssh into each datanode, and append the contents of namenode's public key(from clipboard) into that datanode's authorized_keys file:
 
 datanode1> cat >> ~/.ssh/authorized_keys
-
 [paste your clipboard contents]
-
 [ctrl+d to exit]
 
 datanode2> cat >> ~/.ssh/authorized_keys
-
 [paste your clipboard contents]
-
 [ctrl+d to exit]
 
 datanode3> cat >> ~/.ssh/authorized_keys
-
 [paste your clipboard contents]
-
 [ctrl+d to exit]
